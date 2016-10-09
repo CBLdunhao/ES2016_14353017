@@ -37,7 +37,7 @@
 `$	cd objdir`
 * 运行configure(能根据系统的环境设置一下参数，用于编译)
 `$	../configure CXX=g++ --disable-async-updates`
-下图为运行configure之后的截图![Alt text](./图片1.png)
+下图为运行configure之后的截图![Alt text](./1.png)
 * 编译
 `$	sudo make install`
 * 记录当前的工作路径(会输出当前所在路径，记下来，待会有用)
@@ -60,7 +60,7 @@
 * 然后运行第一个例子
 `$	ant -f runexample.xml -Dnumber=1`
 成功结果如图
->![Alt text](./图片2.png)
+>![Alt text](./2.png)
 
 
 ## Experimental experience
